@@ -6,7 +6,9 @@ Final project for Ecology and Evolutionary Biology 219B at UCLA. Analyzing the c
 
 A full description of the research question, methods, results, and discussion is available in the written report: `nikoDarciMaher_finalreport_mycorrhiza.pdf`
 
-# Simulation
+Slides are also available: `nikoDarciMaher_slides_finaltalk_mycorrhiza.pdf`
+
+# Analysis
 
 To run the simulations used in the project and generate output plots, run the script:
 ```bash
