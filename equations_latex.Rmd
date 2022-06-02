@@ -1,0 +1,21 @@
+---
+title: "model equations"
+author: 'Niko Darci-Maher, UID #504924547'
+date: "5/3/2022"
+output: pdf_document
+---
+
+
+$$
+
+\frac{dC_T(t)}{dt} = \alpha - kC_T(t) - M(t) C_T(t) \frac{N_{Tmin}}{N_T(t)} \hspace{2cm} (\text{Eq. 1}) \\
+
+\frac{dN_F(t)}{dt} = \gamma - kN_F(t) - M(t) N_F(t) \frac{C_{Fmin}}{C_F(t)} \hspace{2cm} (\text{Eq. 2}) \\
+
+\frac{dN_T(t)}{dt} = \mu - kN_T(t) + M(t) N_F(t) \frac{C_{Fmin}}{C_F(t)} \hspace{2cm} (\text{Eq. 3})\\
+
+\frac{dC_F(t)}{dt} = \beta - kC_F(t) + M(t) C_T(t) \frac{N_{Tmin}}{N_T(t)} \hspace{2cm} (\text{Eq. 4})\\
+
+\frac{dM(t)}{dt} = \frac{C_{Fmin}}{C_F(t)} M(t) (1-M(t)) - \delta M(t) \hspace{2cm} (\text{Eq. 5})
+
+$$
